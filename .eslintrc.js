@@ -39,7 +39,8 @@ module.exports = {
                 "tabWidth": 4,
                 "useTabs": false,
                 "trailingComma": "none",
-                "arrowParens": "avoid"
+                "arrowParens": "avoid",
+                "endOfLine": "lf"
             }
         ],
     }
