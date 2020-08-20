@@ -1,5 +1,5 @@
 # Eslint & Prettier 설정
-
+[![npm version](https://badge.fury.io/js/eslint-config-7ylee-vue.svg)](https://badge.fury.io/js/eslint-config-7ylee-vue)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ## 설치
@@ -40,3 +40,7 @@ npx install-peerdeps --dev eslint-config-7ylee-vue
     // VScode의 Prettier Extension이 설치 되어있으면 JS & JSX 자동 포맷팅 비활성화
     "prettier.disableLanguages": ["javascript", "javascriptreact"],
   ```
+
+## !중요
+
+> 코드 에디터에서 `.eslintrc` 파일이 프로젝트 루트에 있어야 합니다.
